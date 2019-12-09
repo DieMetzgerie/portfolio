@@ -76,7 +76,7 @@ H2,H4 {
 .content {
   position:absolute;
     top:50%;
-    left:25%;
+    left:50%;
     z-index:1;
 
 }
