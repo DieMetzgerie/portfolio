@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,700,900|Roboto+Slab:200,400,700,800&display=swap');
+
+
+body {
+  font-family: Lato;
+  font-size: 15px;
+  color: #d2d2d2;
+}
+
+header {
+  background-color: #274a5e;
+}
+
+header img {
+  height: 60px;
+}
+
+H1,H3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+H2,H4 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.separate {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 8%;
+
+}
+
+.subtitle {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 2% 0;
+
+}
+
+.caption {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  text-transform: none;
+  padding: 2% 0;
+
+}
+
+.description {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+  padding: 2%;
+
+}
+
+/* IDEA: ------- HOME VIDEO ------- */
+
+.banner {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content {
+  position:absolute;
+    top:50%;
+    left:17%;
+    z-index:1;
+
+}
+
+
+ .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 150px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.content p {
+font-family: 'Roboto Slab', serif;
+ margin: 0;
+ padding: 0;
+ font-size: 20px;
+ font-weight: light;
+ text-align: center;
+ letter-spacing: 0;
+ color: #FFF;
+ text-transform: capitalize;
+}
+
+/* IDEA: ------- ABOUT ME ------- */
+
+#aboutme  {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+#aboutme .title {
+  color: #116091;
+}
+#aboutme h2 {
+  color: #a2a2a2;
+
+}
+
+
+#aboutme .quote {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  color: #3a7191;
+  text-align: center;
+}
+
+#aboutme span {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+/* IDEA: ------- SERVICES ------- */
+
+#services .title {
+  font-size: 110px;
+}
+
+#services .subtitle {
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: lowercase;
+  margin-top: -10%;
+  margin-bottom: 10%
+}
+
+.carousel-caption {
+  margin-bottom: 10%;
+  }
+
+.carocaption {
+  text-align: center;
+  background-color: rgba(0,0,0,20%);
+  background-position: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.btn-grace {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #d3e1f3;
+  background-color: transparent;
+  border-radius: 5%;
+  border: 1px solid #d3e1f3;
+
+}
+
+.btn-grace:hover {
+  color: #fff;
+  background-color: #116091;
+  border: 0;
+}
+
+
+/* IDEA: ------- PORTFOLIO ------- */
+
+
+#portfolio {
+  background-color: #0a2d44;
+  padding: 10%;
+}
+#portfolio .title {
+  color: #fff;
+}
+
+.gallery {
+position: relative;
+overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.20);
+  opacity: 0;
+  transition: 0.3s all ease-out;
+}
+
+.gallery:hover .overlay {
+  opacity: 100%;
+  transition: 0.3s all ease-in;
+}
+
+.gallery-texto {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.gallery-texto:hover {
+  opacity: 100%;
+  transition: 0.8s all ease;
+}
+
+.gallery-texto h4{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.img-zoom img{
+  transition: 0.3s all ease;
+}
+
+.img-zoom:hover img{
+  transform: scale(1.30);
+  transition: 0.3s all ease;
+  filter: grayscale(0.6);
+}
+
+
+
+/* IDEA: ------- CONTACT ------- */
+
+#contact {
+  padding-top: 10%;
+}
+
+#contact .title {
+  color: #3a7191;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #3a7191;
+}
+
+.formulario input {
+  font-size: 12px;
+  font-family: Lato;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #2d91cf;
+}
+
+
+
+
+
+/* IDEA: ------- FOOTER ------- */
+
+footer {
+  background-color: #d3e1f3;
+  padding: 5% 0;
+  margin-top: 10%;
+
+}
+
+footer #redes h4 {
+  text-align: center;
+  font-size: 20px;
+  color: #3a7191;
+}
+
+footer p {
+  margin: auto;
+	margin-top: 40px;
+  color: #274a5e;
+
+}
+
+#redes .fab {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #3a7191;
+  text-align: center;
+  font-size: 30px;
+  color: #d3e1f3;
+  border-radius: 100%;
+}
+
+#redes .fab:hover {
+  background-color: #274a5e;
+}
