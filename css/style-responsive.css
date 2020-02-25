@@ -1,0 +1,103 @@
+@media screen and (max-width:679px) {
+    
+}
+
+@media (max-width:992px) {
+    /* header nav {
+        height: 100px;
+    } */
+    .menu-items > ul > li >a{
+color: white;
+}
+.navbar-nav .ml-auto{
+
+    text-align: center;
+}
+    .content-message h1 {
+        /* font-size: 100px; */
+    }
+    .menu-bg.fs {
+        -webkit-transform: translate3d(50%, -50%, 0);
+        transform: translate3d(50%, -50%, 0);
+        width: 300vw;
+        height: 300vw;
+        background: #274a5e;
+        color: white;
+    }
+    .menu-hamb {
+            z-index: 2;
+            display: inline;
+            position: absolute;
+    }
+    .menu-bg {
+        background: transparent;
+        pointer-events: none;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        right: 50px;
+        top: 50px;
+        -webkit-transform: translate3d(50%, -50%, 0);
+        transform: translate3d(50%, -50%, 0);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+    .menu, .menu-bg, .menu-burger {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 100%;
+        right: 25px;
+        top: 25px;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    nav{
+        display: flex;
+    justify-content: center;
+    }
+    .menu {
+        display: none;
+        z-index: 1;
+    }
+    .container {
+        max-width: 600px;
+        /* padding: initial; */
+    }
+    .content{
+        height: 40vh;
+    }
+    .content-message h1 {
+        font-size: 80px;
+    }
+    #services .title {
+        font-size: 60px;
+    }
+    .form-group{
+        display: flex;
+    flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+    .content{
+        height: 20vh;
+    }
+    .content-message h1 {
+        font-size: 50px;
+    }
+    #services .title {
+        font-size: 20px;
+    }
+    .form-group{
+        display: flex;
+    flex-direction: column;
+    }
+}
